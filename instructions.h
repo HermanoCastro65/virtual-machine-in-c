@@ -5,7 +5,6 @@ typedef enum {
     PSH,
     ADD,
     POP,
-    SET,
     HLT
 }
 InstructionsSet;
