@@ -4,7 +4,7 @@
 int ip;
 
 int fetch() {
-  return program[ip];
+    return program[ip];
 }
 
 #endif

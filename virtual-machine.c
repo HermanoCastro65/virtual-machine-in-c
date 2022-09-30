@@ -1,14 +1,12 @@
 #include <stdbool.h>
 #include "instructions.h"
 #include "fetch.h"
-
-bool running = true;
+#include "eval.h"
 
 int main() {
-  while (running) {
-    int x = fetch();
-    if (x == HLT) running = false;
-    ip++;
-  }
-  return 0;
+    while (running) {
+        eval(fetch());
+        ip++; // increment the ip every iteration
+    }
+    return 0;
 }
