@@ -8,6 +8,8 @@ typedef enum {
     D,
     E,
     F,
+    IP,
+    SP,
     NUM_OF_REGISTERS
 }
 Registers;

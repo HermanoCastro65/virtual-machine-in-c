@@ -2,8 +2,6 @@
 #define EVAL
 
 bool running = true;
-
-int sp = -1;
 int stack[256];
 
 void eval(int instruction) {
