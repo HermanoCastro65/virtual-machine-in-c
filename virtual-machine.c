@@ -6,7 +6,7 @@
 int main() {
     while (running) {
         eval(fetch());
-        ip++; // increment the ip every iteration
+        ip++; 
     }
     return 0;
 }
