@@ -1,6 +1,7 @@
 #include "instructions.h"
+#include "fetch.h"
 
 int main() {
-
-    return 0;
+  int test = fetch();
+  return 0;
 }
